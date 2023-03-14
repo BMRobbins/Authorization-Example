@@ -1,0 +1,94 @@
+.button_container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0;
+  width: 100%;
+}
+
+.button_container button {
+  margin-right: 30px;
+}
+
+.button_container a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.button_container a:visited {
+  color: blue;
+}
+
+.card_container {
+  align-items: center;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  transition: 0.3s;
+  width: 90%;
+}
+
+.card_container:hover {
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_title {
+  margin-bottom: 10px;
+}
+
+.disclaimer {
+  align-self: center;
+  font-size: 10px;
+  width: 80%;
+}
+
+.disclaimer_container {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border: solid 1px #4a4a4a;
+  display: block;
+  margin-bottom: 15px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.input {
+  border-radius: 4%;
+  height: 25px;
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+.label {
+  margin: 0 20px;
+}
+
+.form_input_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card_container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card_container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card_container {
+    width: 30%;
+  }
+}

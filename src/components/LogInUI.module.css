@@ -1,0 +1,31 @@
+.log_in_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.log_in_title,
+.log_in_description {
+  margin-bottom: 25px;
+}
+
+.log_in_title {
+  font-size: 18px;
+}
+
+.log_in_description {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 700px) {
+  .log_in_title {
+    font-size: 30px;
+  }
+
+  .log_in_description {
+    font-size: 18px;
+  }
+}
