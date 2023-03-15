@@ -1,5 +1,22 @@
 # Authorization Example
-## This is an example of a login/create new user ui that requires a user to login or create an account to access data
+##  The authorization example react app, is a project that mimics a common
+          use case where a user reaches a website and must login to get access
+          to the site information. In this example, a user may log in as an
+          existing customer or create a new user by clicking the sign up link.
+          This is a front end only app, in a real-world situation on form submit
+          a request would be made to the backend to first validate the request
+          and then return the information that would be presented to that
+          specific customer. Since we are not using a backend in this example no
+          validation is done on the form other than to make sure the fields are
+          not empty. This applies to both login and create new user forms. Once
+          the user logs in they will get access to the internal portion of the
+          web page. Also, once a user is logged in, they may logout at any time
+          and they will be rerouted to the user login section. Since the site
+          was very small, I decided not to use Redux, but on a larger website
+          with data that spans across a large page or multiple pages a state
+          management system such as Redux should be used. It should be noted
+          that it may be better to maximize the embedded editor to have a better
+          view of the working project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
