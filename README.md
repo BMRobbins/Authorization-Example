@@ -1,5 +1,5 @@
 # Authorization Example
-##  The authorization example react app, is a project that mimics a common
+          The authorization example react app, is a project that mimics a common
           use case where a user reaches a website and must login to get access
           to the site information. In this example, a user may log in as an
           existing customer or create a new user by clicking the sign up link.
